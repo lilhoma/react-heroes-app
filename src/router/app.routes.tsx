@@ -1,6 +1,6 @@
 import { lazy } from "react";
 import { createBrowserRouter } from "react-router";
-import HomePage from "../heroes/pages/home/HomePage";
+import { HomePage } from "@/heroes/pages/home/HomePage";
 import HeroPage from "@/heroes/pages/hero/HeroPage";
 import AdminPage from "@/admin/pages/AdminPage";
 import { HeroesLayout } from "@/heroes/layouts/HeroesLayout";
