@@ -15,7 +15,7 @@ export const CustomNavMenu = () => {
   };
 
   return (
-    <NavigationMenu>
+    <NavigationMenu className="py-5">
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuLink
