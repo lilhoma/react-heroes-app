@@ -1,5 +1,10 @@
+import { useParams } from "react-router";
+
 const HeroPage = () => {
-  return <div>HeroPage</div>;
+  const { slug } = useParams();
+
+  console.log(slug);
+  return <h1>Hero page</h1>;
 };
 
 export default HeroPage;
